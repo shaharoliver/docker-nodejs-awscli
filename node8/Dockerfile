@@ -8,4 +8,6 @@ RUN easy_install --upgrade six
 
 RUN pip install awscli
 
+RUN apt-get install zip
+
 CMD ["/bin/bash"]
